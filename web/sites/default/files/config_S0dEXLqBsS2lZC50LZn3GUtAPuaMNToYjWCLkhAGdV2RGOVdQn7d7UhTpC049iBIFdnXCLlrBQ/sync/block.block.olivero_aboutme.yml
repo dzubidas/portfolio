@@ -1,0 +1,25 @@
+uuid: 51cc990e-e9cf-4aa1-9184-bbee9ff9521a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0a00532d-3bc6-4a09-bf7f-67af1988f1cd'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_aboutme
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:0a00532d-3bc6-4a09-bf7f-67af1988f1cd'
+settings:
+  id: 'block_content:0a00532d-3bc6-4a09-bf7f-67af1988f1cd'
+  label: 'About me'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

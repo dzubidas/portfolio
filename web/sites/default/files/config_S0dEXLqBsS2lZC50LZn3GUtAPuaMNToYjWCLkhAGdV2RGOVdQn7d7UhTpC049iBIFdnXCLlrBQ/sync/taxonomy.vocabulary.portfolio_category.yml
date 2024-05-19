@@ -1,0 +1,8 @@
+uuid: 7c0de05e-5e28-4cb4-9326-01ea3fc63aa2
+langcode: en
+status: true
+dependencies: {  }
+name: 'Portfolio category'
+vid: portfolio_category
+description: 'Classify and organize different types of entries within the portfolio. '
+weight: 0

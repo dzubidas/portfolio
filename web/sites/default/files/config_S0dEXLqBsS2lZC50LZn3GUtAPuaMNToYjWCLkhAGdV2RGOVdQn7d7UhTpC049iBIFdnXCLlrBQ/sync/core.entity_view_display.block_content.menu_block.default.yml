@@ -1,0 +1,22 @@
+uuid: 5bb61e42-a15d-4320-b50c-5ab18f3d391e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.menu_block
+    - field.field.block_content.menu_block.body
+  module:
+    - text
+id: block_content.menu_block.default
+targetEntityType: block_content
+bundle: menu_block
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

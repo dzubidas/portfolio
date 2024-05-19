@@ -1,0 +1,8 @@
+uuid: dee0ee25-87d7-44c3-a08e-991ec8299f12
+langcode: en
+status: true
+dependencies: {  }
+id: menu_block
+label: 'Menu block'
+revision: 0
+description: ''
