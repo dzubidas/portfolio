@@ -1,0 +1,9 @@
+parameters:
+  cors.config:
+    enabled: true
+    # Adjust the allowedOrigins to match your needs
+    allowedOrigins: ['http://localhost:5173']
+    allowedHeaders: ['*']
+    allowedMethods: ['POST', 'GET', 'OPTIONS', 'PUT', 'DELETE', 'PATCH']
+    supportsCredentials: true
+    maxAge: 1000
